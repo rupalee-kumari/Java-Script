@@ -20,3 +20,27 @@ console.log(typeof age);
 console.log(typeof undefined);//undefined
 console.log(typeof null)//object
 // run command node 01_basics/02_dataTypes.js
+
+
+
+//primitive 
+//7 types: String,Number, Boolean, null, undefined,Symbol,BigInt
+
+
+
+//reference Type (Nonprimitive)
+//Array, Objects, Functions
+
+//Array
+const Animal=["dog","cat", elephant];
+
+//object
+let myobj={ 
+name:"rupalee",
+age: 23,}
+
+//function
+const myfun=function(){
+    console.log("Rupam")
+}
+//return type of this object ..function object
