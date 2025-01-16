@@ -32,7 +32,7 @@ console.log(typeof null)//object
 //Array, Objects, Functions
 
 //Array
-const Animal=["dog","cat", elephant];
+const Animal=["dog","cat", "elephant"];
 
 //object
 let myobj={ 
@@ -44,3 +44,23 @@ const myfun=function(){
     console.log("Rupam")
 }
 //return type of this object ..function object
+
+
+//memory
+//stack(primitive) copy variable declare
+//heap(Non-primitive) reference value
+
+let myname="rupalee"
+let yourname=myname
+yourname="shiva"
+console.log(myname);//rupalee
+console.log(yourname);//shiva
+
+let userone={
+    email:"rupalee.com",
+    upi:"1233ybl"
+}
+let userTwo=userone
+userTwo.email="user.com"
+console.log(userone) //user.com
+console.log(userTwo);//user.com
